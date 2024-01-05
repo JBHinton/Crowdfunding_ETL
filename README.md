@@ -62,7 +62,7 @@ In this section, two approaches were used to extract and transform data from con
 
 In this section, we used the cleaned csv files from the above sections to create a Postgresql Database. 
 
-First, an [ERD](sql_schema_table_screenshot/ERD_sql.png) was created to visualize the relationships between the entities. The SQL from this ERD was exported to: [crowdfunding_db_schema.sql](sql_schema_table_screenshots/crowdfunding_db_schema.sql).
+First, an [ERD](sql_schema_table_screenshots/ERD_sql.png) was created to visualize the relationships between the entities. The SQL from this ERD was exported to: [crowdfunding_db_schema.sql](sql_schema_table_screenshots/crowdfunding_db_schema.sql).
 
 This SQL file was uploaded into the campaign_db Database. The CSV files from Parts 1-3 were imported into the schema, and the database was queried with SELECT statements, resulting in the following:
 
